@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
+    <link rel="manifest" href="img/fav/site.webmanifest">
+    <link rel="mask-icon" href="img/fav/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Mukta:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Covid-19-Home</title>
+</head>
+
+<body class="_nightcolor">
+    <div class="night_mode" onclick="bgcolor('black') " id="nm"> <span><i class="fas fa-moon"></i></span></div>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light " id="navBar">
+        <div class="container-fluid"> <a class="navbar-brand" href="index.html"><img
+                    src="img/logo.jpg"
+                    width="150" alt=""></a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-weight: 500;">
+                    <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="contact.html">Help</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="vacctination.html">Vaccination</a></li>
+                </ul>
+                <form class="d-flex"> <input class="form-control me-2" type="search" placeholder="Search..."
+                        aria-label="Search"> <button class="btn text-white" type="submit"
+                        style="background-color: #26baee;"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <button
+                type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2" aria-label="Slide 3"></button> <button type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button></div>
+        <div class="carousel-inner _nightcolor" style="max-height: 80vh;">
+            <div class="carousel-item active" data-bs-interval="3000"> <img
+                    src="img/slide1.jpg"
+                    class="d-block w-100" alt="..."></div>
+            <div class="carousel-item " data-bs-interval="3000"> <img
+                    src="img/slide2.jpg"
+                    class="d-block w-100" alt="..."></div>
+            <div class="carousel-item " data-bs-interval="3000"> <img
+                    src="img/slide3.jpg"
+                    class="d-block w-100" alt="..."></div>
+            <div class="carousel-item" data-bs-interval="3000"> <img
+                    src="img/slide4.jpg"
+                    class="d-block w-100" alt="..."></div>
+        </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+                class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button"
+            data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <span class="carousel-control-next-icon"
+                aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+    </div>
+    <div class="container-fluid _nightcolor">
+        <div class="row justify-content-evenly alig-items-center mt-5 mb-5 _nightcolor">
+            <div class="col-md-5">
+                <h1 class="mb-md-5 heading">Origin of covid-19 <i class="fas fa-grip-lines-vertical"
+                        style="color: #26baee;"></i></h1>
+                <p class="mb-md-4">Experts say SARS-CoV-2 originated in bats. That’s also how the coronaviruses behind
+                    Middle East respiratory syndrome (MERS) and severe acute respiratory syndrome (SARS) got started.
+                </p>
+                <p class="mb-md-4">SARS-CoV-2 made the jump to humans at one of Wuhan’s open-air “wet markets.” They’re
+                    where customers buy fresh meat and fish, including animals that are killed on the spot.</p>
+                <p class="mb-md-4 d-none d-md-block">Some wet markets sell wild or banned species like cobras, wild
+                    boars, and raccoon dogs. Crowded conditions can let viruses from different animals swap genes.
+                    Sometimes the virus changes so much it can start to infect and spread among people.</p> <a
+                    href="https://www.who.int/health-topics/coronavirus/origins-of-the-virus" target="_blank"
+                    class="btn text-white" style="background-color: #26baee;">Know more</a>
+            </div>
+            <div class="col-md-5 mt-4 col-11"> <img
+                    src="img/origin1.jpg"
+                    alt="" class="img-fluid"></div>
+        </div>
+        <div class="row text-white pt-5 pb-5" id="effect">
+            <div class="col-12">
+                <h1 class="text-center">Efect of covid-19 <i class="fas fa-grip-lines-vertical"
+                        style="color: #26baee;"></i></h1>
+            </div>
+            <div class="col-lg-4 text-center"><img
+                    src="img/effect1.jpg"
+                    class="bd-placeholder-img rounded-circle" width="140" height="140" alt="">
+                <h2>Lockdown</h2>
+                <p>There have been four lockdowns (25 March 2020–31 May 2020), and two unlock periods (1 June–31 July
+                    2020) in India. Aerosol Optical Depth (AOD) has been analyzed using MODIS satellite data during
+                    various phases of lockdowns over India.</p>
+                <p class="mb-5 mb-md-1"><a class="btn effect_btn"
+                        href="img/effect3.jpg"
+                        target="_blank">View details »</a></p>
+            </div>
+            <div class="col-lg-4 text-center"> <img
+                    src="img/effect3.jpg"
+                    class="bd-placeholder-img rounded-circle" width="140" height="140" alt="">
+                <h2>Economy</h2>
+                <p> India's growth in the fourth quarter of the fiscal year 2020 went down to 3.1% according to the
+                    Ministry of Statistics. The Chief Economic Adviser to the Government of India said that this drop is
+                    mainly due to the coronavirus pandemic effect on the Indian economy.</p>
+                <p class="mb-5 mb-md-1"><a class="btn effect_btn"
+                        href="https://en.wikipedia.org/wiki/Economic_impact_of_the_COVID-19_pandemic_in_India"
+                        target="_blank">View details »</a></p>
+            </div>
+            <div class="col-lg-4 text-center"> <img
+                    src="img/effect2.jpg"
+                    class="bd-placeholder-img rounded-circle" width="140" height="140" alt="">
+                <h2>Loss of lifes</h2>
+                <p>With 17% of the world’s population, India has so far had 13% of global COVID-19 infections and 8.5%
+                    of deaths. Maharashtra accounting for 9% of India’s population, is the worst affected state, with
+                    19% of infections and 33% of total deaths in the country until 23rd December 2020.</p>
+                <p><a class="btn effect_btn"
+                        href="https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-021-06026-6"
+                        target="_blank">View details »</a></p>
+            </div>
+        </div>
+        <div class="row justify-content-evenly pt-5 pb-5 _nightcolor" style="background-color: rgb(255, 254, 254);">
+            <div class="col-md-5 d-none d-md-block"><img
+                    src="img/modi.jpg" class="img-fluid "
+                    alt=""></div>
+            <div class="col-md-5 col-11">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between">
+                        <h2 class="blue_stat">Infected</h2>
+                        <h2 class="stats_num">3.03Cr +</h2>
+                    </div>
+                    <div class="col-12">
+                        <div class="progress mb-4">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 40%"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between">
+                        <h2 class="blue_stat">Total deths</h2>
+                        <h2 class="stats_num">3.98L +</h2>
+                    </div>
+                    <div class="col-12">
+                        <div class="progress mb-4">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 5%" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between">
+                        <h2 class="blue_stat">Vaccinated-Dose:1</h2>
+                        <h2 class="stats_num">35.66Cr +</h2>
+                    </div>
+                    <div class="col-12">
+                        <div class="progress mb-4">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 35%"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between">
+                        <h2 class="blue_stat">Vaccinated-Dose:2</h2>
+                        <h2 class="stats_num">5.12Cr +</h2>
+                    </div>
+                    <div class="col-12">
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 3.7%"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-evenly text-white pt-3 pb-5" style="background-color: rgb(24, 27, 26);">
+            <div class="col-md-3 col-11 mt-5">
+                <h3 class="mb-4"> Get Vaccinated &#128591;</h3>
+                <p>Vaccine is not option its mendetory.</p>
+                <p>Wear mask, maintain social distance and get your self Vaccinated</p> <a
+                    href="https://www.cowin.gov.in/home" target="_blank" class="btn text-white mt-md-4"
+                    style="background-color: #26baee;">Book apointment</a>
+            </div>
+            <div class="col-md-2 col-11 mt-5">
+                <h3>Usefull links <i class="fas fa-grip-lines-vertical" style="color: #26baee;"></i></h3>
+                <ul id="foot">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Help</a></li>
+                    <li><a href="vacctination.html">vaccination</a></li>
+                    <li><a href="https://www.cowin.gov.in/home">Book apointment</a></li>
+                    <li><a href="vacctination.html">Tika utsav</a></li>
+                    <li><a href="contact.html">Any query</a></li>
+                    <li><a href="ttps://www.cowin.gov.in/home">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-11 mt-5">
+                <form>
+                    <div class="mb-3"> <label for="exampleInputEmail1" class="form-label">Email address</label> <input
+                            type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3"> <label for="exampleInputPassword1" class="form-label">Password</label> <input
+                            type="password" class="form-control" id="exampleInputPassword1"></div>
+                    <div class="mb-3 form-check"> <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label></div> <button
+                        type="submit" class="btn text-white" style="background-color: #26baee">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="row" style="background-color: black;">
+            <div class="col-12 text-center text-white p-2"> <i class="fa fa-copyright " aria-hidden="true"></i> Created
+                by Shiva Gupta &#128579;</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

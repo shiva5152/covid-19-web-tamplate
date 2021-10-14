@@ -1,0 +1,58 @@
+body {
+    font-family: 'Mukta', sans-serif
+}
+
+#effect {
+    background-image: linear-gradient(117deg, rgba(25, 26, 26, 0.705) 50%, rgba(25, 25, 26, 0.705) 100%), url(img/effect-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed
+}
+
+.effect_btn {
+    background-color: #26baee;
+    color: white
+}
+
+.blue_stat {
+    color: #26baee
+}
+
+.stats_num {
+    color: rgb(189, 91, 27)
+}
+#foot {
+    list-style-type: none;
+    padding: 0
+}
+
+#foot a {
+    text-decoration: none;
+    color: white
+}
+
+#foot a:hover {
+    color: #26baee
+}
+
+.night_mode {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    border: 2px solid black;
+    z-index: 30;
+    padding: 3px 7px;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer
+}
+
+#tikaytsav {
+    background-image: linear-gradient(117deg, rgba(17, 16, 16, 0.805) 50%, rgba(20, 20, 20, 0.144) 100%), url(img/slide1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: whitesmoke
+}
